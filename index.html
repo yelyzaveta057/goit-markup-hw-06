@@ -34,11 +34,30 @@
           <li><a class="contact-address-link" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
         </ul>
       </address>
+      <button class="burger-btn" type="button" data-modal-open>
+        <svg class="burger-icon" width="24" height="24" >
+          <use href="./images/icons.svg#icon-burger"></use>
+        </svg>
+      </button>
+    </div>
+    <div class="mobile-menu" data-menu>
+      <div class="container mobile-menu-container">
+        <button class="mobile-menu-close" data-menu-close>
+          <svg class="icon-close" width="8" height="8">
+            <use href="./images/icons.svg#icon-close"></use>
+          </svg>
+        </button>
+        <nav class="mobile-menu-nav">Navigation</nav>
+        <address>Address</address>
+      </div>
     </div>
     </header>
+
+
+    
 <!--------First block-->
     <main>
-      <section class="first-block">
+      <section class="first-block ">
         <div class="container">
         <h1 class="main-text">Effective Solutions for Your Business</h1>
 
@@ -47,7 +66,7 @@
       </section>
     
 <!------Second block-->
-      <section class="content-block">
+      <section class="content-block hidden">
         <div class="container">
         <h2 class="visually-hidden">Content</h2>
         <ul class="contentblock">
@@ -124,7 +143,7 @@
       </section>
       
       <!------Third Block -->
-      <section class="our-team-block">
+      <section class="our-team-block hidden">
         <div class="container">
         <h2 class="content-item-ourteam">Our Team</h2>
         <ul class="team-menu">
@@ -326,7 +345,7 @@
       </section>
    
     <!----Forth Section-->
-    <section class="portfolio-section">
+    <section class="portfolio-section hidden">
       <div class="container">
       <h2 class="content-item-ourteam">Our Portfolio</h2>
       <ul class="our-team-list">
@@ -392,7 +411,7 @@
     </section>
   </main>
 <!----Footer section-->
-    <footer class="footer-section">
+    <footer class="footer-section hidden">
       <div class="container-footer">
      <div class="div-a-p"><a href="./index.html" class="logo-footer">Web<span class="span-footer">Studio</span></a>
       <p class="footer-text">
@@ -462,7 +481,7 @@
       </div>
     
     </footer>
-    <div class="backdrop is-open"> 
+    <div class="backdrop is-open hidden"> 
       <div class="modal">
         <button type="button" class="modal-button">
           <svg class="icon-close" width="8" height="8">
@@ -522,5 +541,7 @@
                 </form>
                 </div>
               </div>
+              <script src="./js/modal.js"></script>
+              <script src="./js/menu.js"></script>
   </body>
 </html>
