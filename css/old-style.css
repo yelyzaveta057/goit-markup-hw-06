@@ -141,98 +141,28 @@ a {
    
 }
 
-.main-text{
-
-    font-family: "Roboto", sans-serif;
-
-    font-size: 56px;
-    letter-spacing: 0.02em;
-    color: #fff;
-    max-width: 496px; 
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
- 
-    
-}
-.buttom-main-link{
-    text-align: center;
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
-background-color: #4d5ae5;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.04em;
-color: #fff;
-cursor: pointer;
-
-min-width: 169px;
-height: 56px;
-border: none;
-display: block;
-border-radius: 4px;
-margin-top: 48px;
-margin-left: auto;
-margin-right: auto;
-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 
 
 
-}
-.buttom-main-link:hover,
-.buttom-main-link:focus{
-    background-color: #404bbf;
-    color: #F4F4FD;
-}
-.content-block{
-    gap: 24px;
-    padding: 120px 0; 
-}
-.contentblock{
-    text-align: center;
-    background-color: #FFFFFF;
-display: flex;
-gap: 24px;
 
-}
-.svg-div{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 112px;
-    background-color: #f4f4fd;
-    border-radius: 4px;
-    border: 1px solid #8e8f99;
-    margin-bottom: 8px;
-}
-.content-list{
-    width: calc((100% - 72px) / 4)
 
-}
 
-.content-item{
-    font-weight: 500;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    font-size: 20px;
-    color: #2E2F42;
-    background-color: #FFFFFF;
-    margin-bottom: 8px;
-    
-}
 
-.content-text{
-    font-family: "Roboto", sans-serif;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
 
-    text-align: left;
-    width: 264px;
-    
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
 .our-team-block{
   background-color: #F4F4FD;
     text-align: center;
@@ -308,13 +238,8 @@ gap: 24px;
     color: #434455;
     background-color: #FFFFFF;
 }
-.img-thirdblock{
-    background-color: #FFFFFF;
-    
-}
-.img-thirdblock:hover{
-    transform: translateY(0%);
-}
+
+
 .our-team{
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -352,6 +277,7 @@ display: flex;
     justify-content: center;
 }
 
+
 .name-app{
     padding: 32px 16px
 }
@@ -367,6 +293,11 @@ display: flex;
     padding-top: 120px; 
     padding-bottom: 120px;
 }
+
+
+
+
+
 .footer-section{
     
     background-color: #2E2F42;
